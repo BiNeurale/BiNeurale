@@ -30,9 +30,19 @@ Import OpenSCAD files into Blender as native geometry: colors, fast Manifold ren
 Control-flow graph view for OllyDbg 1.10, following EIP, breakpoints and calls.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/BiNeurale/acer-camera-black-screen-fix"><img src="https://raw.githubusercontent.com/BiNeurale/acer-camera-black-screen-fix/main/docs/media/social-preview.png" alt="Webcam black screen in every application: root cause, and a fix that survives the reboot"></a>
+</td>
+<td width="50%" valign="top">
+<b><a href="https://github.com/BiNeurale/acer-camera-black-screen-fix">acer-camera-black-screen-fix</a></b> · PowerShell<br>
+Acer webcams on Windows 11 show a black screen in every application while Device Manager says they are fine.
+The Acer Device MFT is re-registered at every boot, so registry-only fixes stop working after a reboot.
+This repo explains the root cause and ships a fix that survives it. Fixed on 10+ machines.
+</td>
+</tr>
 </table>
 
-**[acer-camera-black-screen-fix](https://github.com/BiNeurale/acer-camera-black-screen-fix)** — root cause and fix for Acer webcams that show a black screen while Device Manager says they are fine.
 
 ## Upstream contributions
 
