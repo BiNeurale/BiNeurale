@@ -1,7 +1,9 @@
 ### Hi, I'm Emanuele — [BiNeurale](https://github.com/BiNeurale)
 
-Reverse engineering, Rust and 3D tooling. I build small tools that fix real problems,
-and when I hit a bug in someone else's software I isolate it and send it upstream.
+Reverse engineer and Rust developer. I build small tools that fix real problems: signed-document
+readers, OCR, CAD and 3D tooling, debugger plugins.
+When I hit a bug in someone else's software, I isolate it, check it against the docs and against real
+Windows or macOS, and send the fix upstream in the project's own style.
 
 ## Projects
 
@@ -46,21 +48,33 @@ This repo explains the root cause and ships a fix that survives it. Fixed on 10+
 
 ## Upstream contributions
 
-Fixes I sent to other projects. Updated automatically every day.
+Fixes and bug reports I sent to other projects. Updated automatically every day.
 
 <!-- contributions:start -->
 
+**13 projects** · **2** merged · **8** in review · **4** bug reports
+
 **Merged**
 
-- **gkjohnson/three-gpu-pathtracer** [#957](https://github.com/gkjohnson/three-gpu-pathtracer/pull/957) — Materials: default the color to white for materials without one
 - **elalish/manifold** [#1926](https://github.com/elalish/manifold/pull/1926) — python: don't export the statically linked manifold and TBB symbols
+- **gkjohnson/three-gpu-pathtracer** [#957](https://github.com/gkjohnson/three-gpu-pathtracer/pull/957) — Materials: default the color to white for materials without one
 
 **In review**
 
 - **godotengine/godot** [#125254](https://github.com/godotengine/godot/pull/125254) — Fix clearcoat_texture description: green channel is roughness, not glossiness
+- **ArduPilot/ardupilot** [#35357](https://github.com/ArduPilot/ardupilot/pull/35357) — AP_Scripting: clarify set_output_pwm_chan_timeout expiry in docs
 - **ValveSoftware/gamescope** [#2541](https://github.com/ValveSoftware/gamescope/pull/2541) — gamescopereaper, steamcompmgr: propagate the primary child's exit status
+- **gumyr/build123d** [#1596](https://github.com/gumyr/build123d/pull/1596) — Return every face when an offset hole splits a face
 - **KhronosGroup/glTF-Blender-IO** [#2789](https://github.com/KhronosGroup/glTF-Blender-IO/pull/2789) — Export: fix KeyError 'loglevel' when export_loglevel >= 0
+- **riscv/riscv-opcodes** [#448](https://github.com/riscv/riscv-opcodes/pull/448) — Fix XLEN classification of Smrnmi and odd pmpcfg CSRs
+- **Vector35/warp** [#46](https://github.com/Vector35/warp/pull/46) — Fix basic block order in function GUID description
+- **vul337/DecompileBench** [#5](https://github.com/vul337/DecompileBench/pull/5) — extract_functions: fix crash on absolute seed corpus links and the -E fallback
+
+**Bug reports**
+
+- **VirusTotal/yara-x** [#894](https://github.com/VirusTotal/yara-x/issues/894) — yr scan: symlinks to files inside a scanned directory are silently skipped
+- **Vector35/binaryninja-api** [#8734](https://github.com/Vector35/binaryninja-api/issues/8734) — [WARP] Blacklisted instructions (NOPs, self-moves) are still hashed into the basic block GUID
+- **Wine** [59803](https://bugs.winehq.org/show_bug.cgi?id=59803) — WoW64 debugger break-in, reproducer + Windows 11 reference
+- **Wine** [60719](https://bugs.winehq.org/show_bug.cgi?id=60719) — Schannel `DecryptMessage` ignores TLS `close_notify`
 
 <!-- contributions:end -->
-
-**Bug reports** — Wine: [59803](https://bugs.winehq.org/show_bug.cgi?id=59803) (WoW64 debugger break-in, reproducer + Windows 11 reference), [60719](https://bugs.winehq.org/show_bug.cgi?id=60719) (Schannel `close_notify`).
