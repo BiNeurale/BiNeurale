@@ -52,12 +52,13 @@ Fixes and bug reports I sent to other projects. Updated automatically every day.
 
 <!-- contributions:start -->
 
-**13 projects** · **2** merged · **8** in review · **4** bug reports
+**13 projects** · **3** merged · **7** in review · **4** bug reports
 
 **Merged**
 
 - **elalish/manifold** [#1926](https://github.com/elalish/manifold/pull/1926) — python: don't export the statically linked manifold and TBB symbols
 - **gkjohnson/three-gpu-pathtracer** [#957](https://github.com/gkjohnson/three-gpu-pathtracer/pull/957) — Materials: default the color to white for materials without one
+- **riscv/riscv-opcodes** [#448](https://github.com/riscv/riscv-opcodes/pull/448) — Fix XLEN classification of Smrnmi and odd pmpcfg CSRs
 
 **In review**
 
@@ -66,13 +67,12 @@ Fixes and bug reports I sent to other projects. Updated automatically every day.
 - **ValveSoftware/gamescope** [#2541](https://github.com/ValveSoftware/gamescope/pull/2541) — gamescopereaper, steamcompmgr: propagate the primary child's exit status
 - **gumyr/build123d** [#1596](https://github.com/gumyr/build123d/pull/1596) — Return every face when an offset hole splits a face
 - **KhronosGroup/glTF-Blender-IO** [#2789](https://github.com/KhronosGroup/glTF-Blender-IO/pull/2789) — Export: fix KeyError 'loglevel' when export_loglevel >= 0
-- **riscv/riscv-opcodes** [#448](https://github.com/riscv/riscv-opcodes/pull/448) — Fix XLEN classification of Smrnmi and odd pmpcfg CSRs
 - **Vector35/warp** [#46](https://github.com/Vector35/warp/pull/46) — Fix basic block order in function GUID description
 - **vul337/DecompileBench** [#5](https://github.com/vul337/DecompileBench/pull/5) — extract_functions: fix crash on absolute seed corpus links and the -E fallback
 
 **Bug reports**
 
-- **VirusTotal/yara-x** [#894](https://github.com/VirusTotal/yara-x/issues/894) — yr scan: symlinks to files inside a scanned directory are silently skipped
+- **VirusTotal/yara-x** [#894](https://github.com/VirusTotal/yara-x/issues/894) — yr scan: symlinks to files inside a scanned directory are silently skipped ✅ fixed upstream
 - **Vector35/binaryninja-api** [#8734](https://github.com/Vector35/binaryninja-api/issues/8734) — [WARP] Blacklisted instructions (NOPs, self-moves) are still hashed into the basic block GUID
 - **Wine** [59803](https://bugs.winehq.org/show_bug.cgi?id=59803) — WoW64 debugger break-in, reproducer + Windows 11 reference
 - **Wine** [60719](https://bugs.winehq.org/show_bug.cgi?id=60719) — Schannel `DecryptMessage` ignores TLS `close_notify`

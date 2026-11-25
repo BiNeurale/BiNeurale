@@ -48,7 +48,9 @@ def by_reach(items):
 
 
 def line(it):
-    return f"- **{repo_of(it)}** [#{it['number']}]({it['html_url']}) — {it['title']}"
+    # A closed-completed issue means upstream fixed what we reported.
+    fixed = " ✅ fixed upstream" if it["state"] == "closed" and "pull_request" not in it else ""
+    return f"- **{repo_of(it)}** [#{it['number']}]({it['html_url']}) — {it['title']}{fixed}"
 
 
 prs = f"is:pr author:{USER} -user:{USER}"
