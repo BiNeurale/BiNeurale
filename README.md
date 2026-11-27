@@ -52,10 +52,11 @@ Fixes and bug reports I sent to other projects. Updated automatically every day.
 
 <!-- contributions:start -->
 
-**13 projects** · **3** merged · **7** in review · **4** bug reports
+**13 projects** · **4** merged · **6** in review · **4** bug reports
 
 **Merged**
 
+- **gumyr/build123d** [#1596](https://github.com/gumyr/build123d/pull/1596) — Return every face when an offset hole splits a face
 - **elalish/manifold** [#1926](https://github.com/elalish/manifold/pull/1926) — python: don't export the statically linked manifold and TBB symbols
 - **gkjohnson/three-gpu-pathtracer** [#957](https://github.com/gkjohnson/three-gpu-pathtracer/pull/957) — Materials: default the color to white for materials without one
 - **riscv/riscv-opcodes** [#448](https://github.com/riscv/riscv-opcodes/pull/448) — Fix XLEN classification of Smrnmi and odd pmpcfg CSRs
@@ -65,7 +66,6 @@ Fixes and bug reports I sent to other projects. Updated automatically every day.
 - **godotengine/godot** [#125254](https://github.com/godotengine/godot/pull/125254) — Fix clearcoat_texture description: green channel is roughness, not glossiness
 - **ArduPilot/ardupilot** [#35357](https://github.com/ArduPilot/ardupilot/pull/35357) — AP_Scripting: clarify set_output_pwm_chan_timeout expiry in docs
 - **ValveSoftware/gamescope** [#2541](https://github.com/ValveSoftware/gamescope/pull/2541) — gamescopereaper, steamcompmgr: propagate the primary child's exit status
-- **gumyr/build123d** [#1596](https://github.com/gumyr/build123d/pull/1596) — Return every face when an offset hole splits a face
 - **KhronosGroup/glTF-Blender-IO** [#2789](https://github.com/KhronosGroup/glTF-Blender-IO/pull/2789) — Export: fix KeyError 'loglevel' when export_loglevel >= 0
 - **Vector35/warp** [#46](https://github.com/Vector35/warp/pull/46) — Fix basic block order in function GUID description
 - **vul337/DecompileBench** [#5](https://github.com/vul337/DecompileBench/pull/5) — extract_functions: fix crash on absolute seed corpus links and the -E fallback
